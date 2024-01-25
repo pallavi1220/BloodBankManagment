@@ -68,9 +68,9 @@ function carousel() {
  <form action ="indexFormAction.jsp" method ="post">
  <center>
  <input type ="text" name ="name" placeholder ="Enter Name" required>
- <input type ="text" name ="mobilenumber" placeholder="Enter Mobile Number" requred>
- <input type ="mail" name ="email" placeholder="Enter Email Address" requred>
- <input type ="text" name ="bloodgroup" placeholder="Enter Blood Group" requred>
+ <input type ="text" name ="mobilenumber" placeholder="Enter Mobile Number" required>
+ <input type ="mail" name ="email" placeholder="Enter Email Address" required>
+ <input type ="text" name ="bloodgroup" placeholder="Enter Blood Group" required>
  <button class="button1"><span>Submit</span></button>
  
  </center>

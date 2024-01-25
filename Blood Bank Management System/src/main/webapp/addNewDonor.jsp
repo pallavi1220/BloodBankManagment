@@ -1,5 +1,8 @@
 <%@page import ="Project.ConnectionProvider"%>
-<%@page import ="java.sql.*"%>
+
+<%@page import ="java.sql.ResultSet"%>
+<%@page import ="java.sql.Statement"%>
+<%@page import ="java.sql.Connection"%>
 <%@include file="header.html"%>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -60,8 +63,8 @@ try{
 	}
 	%>
 	<div class ="container">
-	<h1 style="color:red;">Donor ID: <%out.println(id) ;%></h1>
-</div>
+	<h1 style="color:red;">Donor ID: <%out.println(rs.first()) ;%></h1>
+
 	<%  
 }
 catch(Exception e){
@@ -113,6 +116,7 @@ catch(Exception e){
 <hr>
 
 </form>
+</div>
 
 
  </div>
